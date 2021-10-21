@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='cli-elections',
-    version='0.1.2',
+    version='0.2.0',
     author='Oldřich Taufer',
     author_email='O.Taufer@gmail.com',
     description='Application for displaying election results in the terminal.',
