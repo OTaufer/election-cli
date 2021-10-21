@@ -18,7 +18,7 @@ def main():
     all_districts: Dict[str, District] = get_all_districts('cli_elections/data/cnumnuts.csv')
     all_parties: Dict[str, Party] = get_all_parties('cli_elections/data/psrkl.csv')
 
-    print('Prusa research test day app')
+    print('Election cli app')
 
     question = get_input('Enter the city for which you want to view election results')
     inserted_city_name = inquirer.prompt(question)['question']
