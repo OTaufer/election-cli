@@ -11,3 +11,8 @@ $pip install cli-elections
 ```python
 $election
 ```
+
+## Recommendations
+
+- Replace the plottext with another library (some UI problems)
+- Fix loading one column bar graph in plottext
