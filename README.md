@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# election-cli
-=======
 # Elections CLI app
 
 Application for displaying election results in the terminal.
@@ -15,4 +12,7 @@ $pip install cli-elections
 $election
 ```
 
->>>>>>> initial commit
+## Recommendations
+
+- Replace the plottext with another library (some UI problems)
+- Fix loading one column bar graph in plottext
