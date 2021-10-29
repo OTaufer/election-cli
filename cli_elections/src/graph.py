@@ -8,8 +8,7 @@ def get_bar_graph(title, x, y, all_parties) -> plt:
     """
     plt.title(title)
 
-    for i in range(len(x)):
-        party_name = x[-i - 1]
+    for i, party_name in enumerate(reversed(x)):
         if i == len(x) - 1:
             y.append(0)  # ugly ohack because plotext dont support bar with one record TODO send fix MR to library
         plt.bar(x, y, color=Party.get_party_color(party_name, all_parties.values()))
