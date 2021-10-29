@@ -2,3 +2,4 @@ inquirer
 requests
 diskcache
 plotext
+xmltodict
