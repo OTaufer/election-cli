@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='cli-elections',
-    version='0.3.0',
+    version='0.3.2',
     author='Oldřich Taufer',
     author_email='O.Taufer@gmail.com',
     description='Application for displaying election results in the terminal.',
@@ -16,5 +16,7 @@ setup(
         ]
     },
     install_requires=requirements,
-    zip_safe=False
+    zip_safe=False,
+    package_data={'cli_elections': ['cli_elections/data/*']},
+    include_package_data=True
 )
